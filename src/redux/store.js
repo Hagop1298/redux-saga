@@ -9,7 +9,7 @@ const store = configureStore({
     reducer: rootReducer,
     middleware: () => [sagaMiddleware]
 });
-sagaMiddleware.run(productSaga)
+sagaMiddleware.run(productSaga)               
 
 
 export default store;

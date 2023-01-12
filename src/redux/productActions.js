@@ -1,13 +1,12 @@
 import { PRODUCT_LIST } from './constant'
-const productList = async () => {
-    let data = await fetch("https://jsonplaceholder.typicode.com/todos")
-    data = await data.jason()
-    console.log("action is called", data);
+const productList =  () => {
+    // let data = await fetch("https://jsonplaceholder.typicode.com/todos")
+    // data = await data.jason()
+    // console.log("action is called", data);
     return {
         type: PRODUCT_LIST,
-        data
     }
-
+ 
 }
 
 export default productList;

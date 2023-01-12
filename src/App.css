@@ -28,6 +28,18 @@
   right: 0px;
   color: #fff;
 }
+.product-container{
+display: flex;
+flex-wrap: wrap;
+}
+.product-item{
+  border: 1px solid #ccc;
+}
+.logo{
+  margin: 0;
+  float: left;
+  padding: 20px;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
